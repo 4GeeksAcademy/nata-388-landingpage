@@ -13,23 +13,24 @@ const Home = () => {
 		<div>
 			<Navbar/>
 			<Jumbotron/>
-			
-  <div class="row">
-    <div class="col">
-	<Card/>
-    </div>
-    <div class="col">
-	<Card/>
-    </div>
-    <div class="col">
-	<Card/>
-    </div>
-	<div class="col">
-	<Card/>
-    </div>
-  </div>
+	<div className="container">
+		<div className="row">
+			<div className="col-12 col-md-3">
+			<Card/>	
+			</div>
+			<div className="col-12 col-md-3">
+			<Card/>	
+			</div>
+			<div className="col-12 col-md-3">
+			<Card/>	
+			</div>
+			<div className="col-12 col-md-3">
+			<Card/>	
+			</div>
+		</div>
+		</div>
 
-			<Card/>
+
 			<Footer/>
 		</div>
 	);
